@@ -63,6 +63,7 @@ a{
 .footer{
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
 button{
     background-color: #3882f6;
@@ -126,5 +127,30 @@ em{
 }
 .quote #thor{
     font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 200px;
+    border-radius: 8px;
+}
+.action-text{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 12px;
+    gap: 4px;
+}
+.act-header{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.but-act{
+    border-radius: 8px;
+    border: #f9faf8 solid 2px;
 }
