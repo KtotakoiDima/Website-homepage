@@ -111,3 +111,20 @@ button{
     border-radius: 8px;
     border: #3882f6 solid 2px;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 125px;
+}
+em{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 50;
+}
+.quote #thor{
+    font-weight: 700;
+    font-size: 36px;
+}
